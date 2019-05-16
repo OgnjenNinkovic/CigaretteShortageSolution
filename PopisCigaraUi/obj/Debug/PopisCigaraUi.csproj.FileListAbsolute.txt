@@ -1,0 +1,70 @@
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe.config
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.pdb
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csprojResolveAssemblyReference.cache
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.g.cs
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\App.g.cs
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.cache
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.lref
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.baml
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.g.resources
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.Properties.Resources.resources
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csproj.GenerateResource.Cache
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.exe
+E:\Programi\visual studio projekti\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.pdb
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe.config
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.exe
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.pdb
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.pdb
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csprojResolveAssemblyReference.cache
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.g.cs
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\App.g.cs
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.cache
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.lref
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.baml
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.g.resources
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.Properties.Resources.resources
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csproj.GenerateResource.Cache
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.frmPrint.resources
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\RdlCompile.cache
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\RdlCompile.compiled
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.barCodeIzvestaj.resources
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\AnalizaPopisa.g.cs
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe.manifest
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.application
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\AnalizaPopisa.baml
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.TrustInfo.xml
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.exe.manifest
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.application
+C:\Users\OG\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\App.baml
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe.config
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.exe
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.pdb
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\AnalizaPopisa.g.cs
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.g.cs
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\App.g.cs
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.cache
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi_MarkupCompile.lref
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\App.baml
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\AnalizaPopisa.baml
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\MainWindow.baml
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.g.resources
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.barCodeIzvestaj.resources
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.frmPrint.resources
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.Properties.Resources.resources
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csproj.GenerateResource.Cache
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.TrustInfo.xml
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe.manifest
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.application
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.exe
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\PopisCigaraUi.pdb
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.exe.manifest
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.application
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csprojAssemblyReference.cache
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csproj.CoreCompileInputs.cache
+C:\Users\OGI-PC\Desktop\PopisCigaraUi\PopisCigaraUi\obj\Debug\PopisCigaraUi.csproj.CopyComplete

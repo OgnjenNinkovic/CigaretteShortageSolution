@@ -1,0 +1,229 @@
+﻿<Window x:Name="winAnaliza"
+        x:Class="PopisCigaraUi.AnalizaPopisa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PopisCigaraUi.Models"
+        mc:Ignorable="d"
+        Title="AnalizaPopisa"
+        Height="700"
+        Width="485"
+        MinWidth="485"
+        MinHeight="700"
+        Loaded="winAnaliza_Loaded">
+  <Window.Resources>
+    <Style x:Key="ItemConStyle"
+           TargetType="{x:Type ListViewItem}">
+      <Style.Resources>
+        <LinearGradientBrush x:Key="ProfitBrush"
+                             StartPoint="0.5,0"
+                             EndPoint="0.5,1">
+          <GradientStop Offset="0.1"
+                        Color="#FFB9AFF7" />
+          <GradientStop Offset="0.8"
+                        Color="#FFBABAF6" />
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="LossBrush"
+                             StartPoint="0.5,0"
+                             EndPoint="0.5,1">
+          <GradientStop Offset="0.1"
+                        Color="#AAE44F4F" />
+          <GradientStop Offset="0.8"
+                        Color="#55880000" />
+        </LinearGradientBrush>
+
+        <local:BarcodeToBackground x:Key="PolarValueConv" />
+      </Style.Resources>
+      <Setter Property="HorizontalAlignment"
+              Value="Stretch" />
+
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding Barcode,Converter={StaticResource PolarValueConv}}"
+                     Value="+1">
+          <Setter Property="Background"
+                  Value="{StaticResource ProfitBrush}" />
+        </DataTrigger>
+
+        <DataTrigger Binding="{Binding Barcode,Converter={StaticResource PolarValueConv}}"
+                     Value="-1">
+          <Setter Property="Background"
+                  Value="{StaticResource LossBrush}" />
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+    <CollectionViewSource x:Key="cigiviewSource">
+      <CollectionViewSource.GroupDescriptions>
+        <PropertyGroupDescription PropertyName="ListDate" />
+      </CollectionViewSource.GroupDescriptions>
+    </CollectionViewSource>
+    <DataTemplate x:Key="analizaHeaderTemplate">
+      <DockPanel>
+        <TextBlock FontSize="15"
+                   FontWeight="Bold">
+          <TextBlock.Text>
+            <Binding />
+          </TextBlock.Text>
+        </TextBlock>
+      </DockPanel>
+    </DataTemplate>
+  </Window.Resources>
+  <Grid DataContext="{StaticResource cigiviewSource}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="5*" />
+      <RowDefinition Height="33*" />
+    </Grid.RowDefinitions>
+    <Border BorderBrush="Black"
+            Grid.Row="0"
+            BorderThickness="1"
+            Margin="5,5,5,5">
+      <Grid>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*" />
+          <ColumnDefinition Width="1.5*" />
+          <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label"
+               Content="ANALIZA PO DATUMU"
+               HorizontalAlignment="Center"
+               Margin="0,1,0,0"
+               Grid.Column="1"
+               FontWeight="Bold"
+               FontSize="14"
+               Height="28"
+               VerticalAlignment="Top" />
+        <StackPanel Orientation="Vertical"
+                    Grid.Column="1">
+          <Label x:Name="label2"
+                 Content="Promena u količini"               
+                Margin="0,20,0,0"
+                 HorizontalAlignment="Center"/>
+          <Rectangle x:Name="bojaKolicina"
+                     Stroke="Black"
+                     HorizontalAlignment="Center"
+                     Width="80"
+                     Height="25"
+                     >
+            <Rectangle.Fill>
+              <LinearGradientBrush EndPoint="0.5,1"
+                                   StartPoint="0.5,0">
+                <GradientStop Color="#FFB9AFF7"
+                              Offset="0" />
+                <GradientStop Color="White"
+                              Offset="1" />
+              </LinearGradientBrush>
+            </Rectangle.Fill>
+          </Rectangle>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+                    Grid.Column="0">
+          <Label x:Name="label3"
+                 Grid.Column="0"
+                 Content="Novi artikl"
+                 HorizontalAlignment="Center"
+                 Margin="0,20,0,0" />
+          <Rectangle x:Name="bojaNoviArtikal"
+                     Stroke="Black"
+                     Grid.Column="0"
+                     Height="25"
+                     Width="80"
+                     HorizontalAlignment="Center">
+            <Rectangle.Fill>
+              <LinearGradientBrush EndPoint="0.5,1"
+                                   StartPoint="0.5,0">
+                <GradientStop Color="#AAE44F4F"
+                              Offset="0" />
+                <GradientStop Color="#55880000"
+                              Offset="1" />
+              </LinearGradientBrush>
+            </Rectangle.Fill>
+          </Rectangle>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+                    Grid.Column="2">
+          <Label x:Name="label1"
+                 Content="Datum"
+                 HorizontalAlignment="Center"
+                 Grid.Column="2"
+                 Margin="0,20,0,0"/>
+          <ComboBox x:Name="ComboBoxDate"
+                    FontWeight="Bold"
+                    HorizontalAlignment="Center"
+                    SelectionChanged="ComboBoxDate_SelectionChanged"
+                    FontSize="14"
+                    Width="109"
+                    MaxWidth="107"
+                    MaxHeight="30" />
+        </StackPanel>
+      </Grid>
+    </Border>   
+
+    <ListView x:Name="listView"
+              HorizontalAlignment="Stretch"
+              ItemsSource="{Binding}"
+              VerticalAlignment="Stretch"
+              BorderBrush="Black"
+              Margin="0,6,0,0"
+              Grid.Row="1"
+              ItemContainerStyle="{StaticResource ItemConStyle}">
+      <ListView.GroupStyle>
+        <GroupStyle>
+          <GroupStyle.ContainerStyle>
+            <Style TargetType="{x:Type GroupItem}">
+              <Setter Property="Margin"
+                      Value="0,0,0,5" />
+              <Setter Property="Template">
+                <Setter.Value>
+                  <ControlTemplate TargetType="{x:Type GroupItem}">
+                    <Expander IsExpanded="False"
+                              BorderBrush="Black"
+                              BorderThickness="0,0,0,2">
+                      <Expander.Header>
+                        <StackPanel Orientation="Horizontal"
+                                    Background="LightGray"
+                                    Width="500">
+                          <TextBlock Text="{Binding Name}"
+                                     FontWeight="Bold" />
+                          <TextBlock Text="               " />
+                          <TextBlock Text="Broj artikala: "
+                                     FontWeight="Bold" />
+                          <TextBlock Text="{Binding ItemCount}"
+                                     FontWeight="Bold" />
+                        </StackPanel>
+
+                      </Expander.Header>
+                      <ItemsPresenter />
+                    </Expander>
+                  </ControlTemplate>
+                </Setter.Value>
+              </Setter>
+            </Style>
+          </GroupStyle.ContainerStyle>
+        </GroupStyle>
+      </ListView.GroupStyle>
+
+      <ListView.View>
+        <GridView ScrollViewer.CanContentScroll="True">
+          <GridViewColumn Header="Barkod"
+                          Width="150"
+                          DisplayMemberBinding="{Binding Barcode}"
+                          HeaderTemplate="{StaticResource analizaHeaderTemplate}" />
+          <GridViewColumn Header="Naziv"
+                          Width="200"
+                          DisplayMemberBinding="{Binding Name}"
+                          HeaderTemplate="{StaticResource analizaHeaderTemplate}" />
+          <GridViewColumn Header="Cena"
+                          Width="40"
+                          DisplayMemberBinding="{Binding Cena}"
+                          HeaderTemplate="{StaticResource analizaHeaderTemplate}" />
+          <GridViewColumn Header="Kolicina"
+                          Width="60"
+                          DisplayMemberBinding="{Binding Kolicina}"
+                          HeaderTemplate="{StaticResource analizaHeaderTemplate}" />
+        </GridView>
+      </ListView.View>
+    </ListView>
+
+  </Grid>
+</Window>
