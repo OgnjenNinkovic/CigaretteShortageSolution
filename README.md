@@ -12,7 +12,7 @@
 ### After finishing the cigarette count by clicking on the "IZVEŠTAJ" button, we can print the current status.
 ![LinkedIn Learning](Izvestaj.GIF)
 
-### If we want to pay the current deficit, by clicking on the "barcode report" button, we only get barcodes. Using the barcode reader we just go over the barcodes and the status of the list is recorded at the cash register. 
+### If we want to pay the current deficit, by clicking on the "BARKOD IZVEŠTAJ" button, we only get barcodes. Using the barcode reader we just go over the barcodes and the status of the list is recorded at the cash register. 
 ![LinkedIn Learning](BarkodIzvestaj.GIF)
 
 
