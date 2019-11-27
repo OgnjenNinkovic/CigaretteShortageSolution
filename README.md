@@ -1,6 +1,6 @@
 # Cigarette deficiency control application
 
-I developed this application to try to reduce the constant problem of cigarette deficiency. The application archives each control count of cigarettes and performs precisely comparison off control count by date.
+### I developed this application to try to reduce the constant problem of cigarette deficiency. The application archives each control count of cigarettes and performs precisely comparison off control count by date.
 
 ## Instructions
 ### The application uses a .xls Excel file as the database, copied to C:\Users\currentUser\Documents\PopisCigara directory.
@@ -38,4 +38,4 @@ I developed this application to try to reduce the constant problem of cigarette 
 
 ## Installing
 
-1. simply run the installshield wizard and follow the instructions.
+### simply run the installshield wizard and follow the instructions.
