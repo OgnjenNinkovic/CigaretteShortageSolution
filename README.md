@@ -1,6 +1,7 @@
 # Cigarette deficiency control application
 
-### I developed this application to try to reduce the constant problem of cigarette deficiency. The application archives each control count of cigarettes and performs precisely comparison off control count by date.
+### I developed this application to try and reduce the constant problem of cigarette deficiency. The application archives each control count of cigarettes and performs precise comparison off control count by date.
+
 
 ## Instructions
 ### The application uses a .xls Excel file as the database, copied to C:\Users\currentUser\Documents\PopisCigara directory.
@@ -9,21 +10,21 @@
 
 
 
-### After finishing the cigarette count by clicking on the "IZVEŠTAJ" button, we can print the current status.
+### After the controll count is finished you can print the report by clicking the "IZVEŠTAJ" button. 
 ![LinkedIn Learning](Izvestaj.GIF)
 
-### If we want to pay the current deficit, by clicking on the "BARKOD IZVEŠTAJ" button, we only get barcodes. Using the barcode reader we just go over the barcodes and the status of the list is recorded at the cash register. 
+### If we want to pay the current deficit, you can do so by clicking the "barcode report" button, you only get barcodes. Using the barcode reader, you just go over the barcodes and the status of the list is recorded at the cash register. 
 ![LinkedIn Learning](BarkodIzvestaj.GIF)
 
 
 
 
-### Clicking on the "ARHIVIRAJ" button saves the current counting status in the csv file in the C:\Users\current user\Documents\PopisCigara\Popisi Directory.
+### Clicking the "ARHIVIRAJ" button saves the current count status in the csv file in the C:\Users\current user\Documents\PopisCigara\Popisi Directory.
 ![LinkedIn Learning](Arhiviraj.jpg)
 
 
 
-### Clicking on the "ANALIZA POPISA" button opens a window with an overview of all archived check counts. 
+### Clicking the "ANALIZA POPISA" button opens a window with an overview of all archived check counts.  
 ![LinkedIn Learning](Analiza.jpg)
 
 
@@ -33,7 +34,7 @@
 
 
 
-### When a date is selected, the application scans all check counts and compares them with the date selected and records the differences. items that are not on the selected counting date are marked in red. Purple items are marked on the selected check count, but also on all remaining check counts and they difference in the number of items.
+### When a date is selected, the application scans all check counts and compares them with the date selected and records the differences. items that are not on the selected counting date are marked in red. Purple items are marked on the selected check count, but also on all remaining check counts and they differentiate in number of items.  
 ![LinkedIn Learning](Analiza2.jpg)
 
 ## Installing
