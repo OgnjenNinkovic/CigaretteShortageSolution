@@ -13,7 +13,7 @@
 ### After the controll count is finished you can print the report by clicking the "IZVEŠTAJ" button. 
 ![LinkedIn Learning](Izvestaj.GIF)
 
-### If we want to pay the current deficit, you can do so by clicking the "barcode report" button, you only get barcodes. Using the barcode reader, you just go over the barcodes and the status of the list is recorded at the cash register. 
+### If we want to pay the current deficit, you can do so by clicking the "BARKOD IZVEŠTAJ" button, you only get barcodes. Using the barcode reader, you just go over the barcodes and the status of the list is recorded at the cash register. 
 ![LinkedIn Learning](BarkodIzvestaj.GIF)
 
 
