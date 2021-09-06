@@ -5,7 +5,7 @@
 
 ## Instructions
 ### The application uses a .xls Excel file as the database, copied to C:\Users\currentUser\Documents\PopisCigara directory.
-### when a deficiency or surplus is found during the check count, use the barcode reader to read the barcode of the item and enter the deficiency or surplus number.
+### When a deficiency or surplus is found during the check count, use the barcode reader to read the barcode of the item and enter the deficiency or surplus number.
 ![LinkedIn Learning](MainWin.jpg)
 
 
@@ -34,9 +34,9 @@
 
 
 
-### When a date is selected, the application scans all check counts and compares them with the date selected and records the differences. items that are not on the selected counting date are marked in red. Purple items are marked on the selected check count, but also on all remaining check counts and they differentiate in number of items.  
+### When a date is selected, the application scans all check counts and compares them with the date selected and records the differences. Items that are not on the selected counting date are marked in red. Purple items are marked on the selected check count, but also on all remaining check counts and they differentiate in number of items.  
 ![LinkedIn Learning](Analiza2.jpg)
 
 ## Installing
 
-### simply run the installshield wizard and follow the instructions.
+### Simply run the installshield wizard and follow the instructions.
