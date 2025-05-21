@@ -1,6 +1,6 @@
 # Cigarette deficiency control application
 
-### I developed this application to try and reduce the constant problem of cigarette deficiency. The application archives each control count of cigarettes and performs precise comparison off control count by date.
+### I developed this application to address the recurring issue of cigarette shortages. The application archives each control count of cigarettes and performs a precise comparison of control counts by date.
 
 
 ## Instructions
